@@ -6,12 +6,18 @@ log-level: info
 proxies:
 - name: 🇮🇶 IQ 01 - xiaohe
   type: vless
-  server: 81.90.25.152
-  port: 34302
-  uuid: e9a7f2c2-51bd-4a81-de35-26b369e2585b
+  server: 104.17.147.22
+  port: 443
+  uuid: 4ccf70f9-7632-4b5a-9557-10d2dd347bb2
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
+  servername: to6r63-kkchighqm2.vxz0dduq7to7su0cdqf.workers.dev
+  network: ws
+  ws-opts:
+    path: /vl/G4J8aNAVZt9KdOjjcfZDFDRI1Obr5E0?ed=2560
+    headers:
+      Host: to6r63-kkchighqm2.vxz0dduq7to7su0cdqf.workers.dev
 proxy-groups:
 - name: PROXIES
   type: select
